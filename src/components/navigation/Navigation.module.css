@@ -1,0 +1,140 @@
+.pzzHeader {
+    min-height: 101px;
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-around;
+    /*position: fixed;*/
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    width: 74px;
+    height: 80px;
+    color: #fff;
+    margin-top: -40px;
+    margin-right: 2300px;
+}
+
+.logoImg {
+    width: 800px;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px -30px;
+    display: flex;
+    font: 32px lobster, sans-serif;
+    letter-spacing: -.5px;
+}
+
+.navListItem {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.itemLink {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts {
+    position: relative;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.providers {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.phone {
+    font: 56px/1 lobster, sans-serif;
+    letter-spacing: -3.36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.phoneLink {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartSum {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.cartLink {
+    font: 32px lobster, sans-serif;
+    letter-spacing: -.5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.mapLink {
+    font: 32px lobster, sans-serif;
+    letter-spacing: -.5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.address {
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.pizzaLogoContainer {
+    display: block;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1600px;
+}
+
+.pizzaLogoImage {
+    width: 700px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo, .pizzaLogoContainer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .pzzHeader {
+        max-width: 100%;
+    }
+}

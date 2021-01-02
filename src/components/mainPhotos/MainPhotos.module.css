@@ -1,0 +1,17 @@
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer {
+    margin-top: 110px;
+}
+.img {
+    width: 40vh;
+}
+
+.img:hover {
+    width: 80vh;
+} 

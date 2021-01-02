@@ -1,0 +1,91 @@
+.section {
+    padding-top: 160px;
+    padding-left: 15%;
+}
+
+.sectionTitle {
+    color: black;
+    font: 40px lobster, sans-serif;
+    letter-spacing: -.5px;
+    font-weight: 800;
+}
+
+.orderTitle {
+    color: black;
+    font: 30px lobster, sans-serif;
+    letter-spacing: -.5px;
+    font-weight: 600;
+}
+
+.goodsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.goodsListItem {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.totalContainer {
+    display: flex;
+    width: 72%;
+    justify-content: flex-end;
+}
+
+.totalTitle {
+    color: #999;
+    font: 20px/22px Malina, sans-serif;
+    letter-spacing: -.5px;
+    padding: 0 20px 0 0;
+}
+
+.totalSum {
+    color: #000;
+    background: #fff;
+    font: 25px/1.2 Helvetica, Arial, sans-serif;
+}
+
+.checkoutContainer {
+    display: flex;
+    width: 72%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.checkoutContainer :hover {
+    background-color: green;
+}
+
+.checkout {
+    font: 40px lobster, sans-serif;
+    background-color: #ff5200;
+    color: #fff;
+    border-radius: 5%;
+    min-width: 350px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .pizzaListItem {
+        width: 40%;
+    }
+}

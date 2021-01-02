@@ -1,0 +1,196 @@
+.section {
+    margin-bottom: 200px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font: 40px/1.1 lobster, sans-serif;
+    letter-spacing: -1px;
+    margin-left: 10%;
+    padding: 0 0 30px;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.forms {
+    margin-left: 10%;
+}
+
+.formItem {
+    padding-bottom: 20px;
+}
+
+.formItemLabel {
+    display: block;
+    font-size: 17px;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+.formItemInput {
+    float: left;
+    margin: 0;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+    width: 336px;
+}
+
+.phonePrefix {
+    width: 75px;
+    margin-right: 5px;
+    float: left;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+}
+
+.phoneRest {
+    display: inline-block;
+    float: left;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+}
+
+.formItemInputSmall {
+    float: left;
+    margin: 0;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+    width: 70px;
+}
+
+.addressList {
+    display: flex;
+    list-style: none;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.addressListItem {
+    padding-right: 10px;
+}
+
+.formItemInputComments {
+    float: left;
+    margin: 0;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+    width: 920px;
+}
+
+.typeOfPayment {
+    margin: 50px 0;
+}
+
+.paymentTitle {
+    color: #999;
+    font: 30px/1.1 lobster, sans-serif;
+    letter-spacing: -.5px;
+    margin: 0;
+    padding: 0 0 15px;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.paymentList {
+    display: flex;
+    list-style: none;
+}
+
+.paymentListItem {
+    padding-right: 10px;
+}
+
+.paymentButton {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font: 17px/1 Malina, sans-serif;
+    letter-spacing: -.25px;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-font-smoothing: antialiased;
+    background-color: #999;
+    -webkit-border-radius: 10px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 10px;
+    -moz-background-clip: padding;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 14px 20px;
+    min-width: 107px;
+    text-align: center;
+}
+
+.paymentButton:hover {
+    background-color: #088a08;
+}
+
+.totalContainer {
+    display: flex;
+    width: 72%;
+    justify-content: flex-end;
+}
+
+.totalTitle {
+    color: #999;
+    font: 20px/22px Malina, sans-serif;
+    letter-spacing: -.5px;
+    padding: 0 20px 0 0;
+}
+
+.totalSum {
+    color: #000;
+    background: #fff;
+    font: 25px/1.2 Helvetica, Arial, sans-serif;
+}
+
+.checkoutContainer {
+    display: flex;
+    width: 72%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.checkoutContainer :hover {
+    background-color: green;
+}
+
+.checkout {
+    font: 40px lobster, sans-serif;
+    background-color: #ff5200;
+    color: #fff;
+    border-radius: 5%;
+    min-width: 350px;
+    text-align: center;
+}
+
+.select {
+    float: left;
+    margin: 0;
+    border: 1px solid #c3c3c3;
+    font-size: 21px;
+    padding: 4px 6px 4px 12px;
+    width: 336px;
+}
+
+.promoContainer {
+    margin-top: 50px;
+    margin-left: -345px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .formItemInputComments {
+        width: 860px;
+    }
+}

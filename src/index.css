@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #FECE90;
+}
+
+p, ul, li, div, body, html, main {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: malina;
+    src: url(assets/fonts/malina-webfont.eot);
+    src: url(assets/fonts/malina-webfont.eot#iefix) format('embedded-opentype'), url(assets/fonts/malina-webfont.woff) format('woff'), url(assets/fonts/malina-webfont.svg#als_malinaregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: lobster;
+    src: local('lobster'), url(./assets/fonts/Lobster-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+button:hover {
+    background-color: #088a08;
+    color: white;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+
+
+
+

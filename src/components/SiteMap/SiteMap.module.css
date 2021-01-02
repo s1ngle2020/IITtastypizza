@@ -1,0 +1,23 @@
+.linkListContainer {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.linkList {
+    list-style: none;
+}
+
+.listItem {
+    margin: 20px;
+    width: 600px;
+    font-size: 30px;
+    color: black;
+}
+
+.imgContainer {
+    margin-top: 10px;
+}
+.img {
+    width: 20vw;
+    margin-left: 20px;
+}
