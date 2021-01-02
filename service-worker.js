@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IITtastypizza/precache-manifest.0a6a36435c33099dab2324f6b6a5d788.js"
+  "/IITtastypizza/precache-manifest.0015d7539ea43f9a9b10f08412e3a8e4.js"
 );
 
 self.addEventListener('message', (event) => {

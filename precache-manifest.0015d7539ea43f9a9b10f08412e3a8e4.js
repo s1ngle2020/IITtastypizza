@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce867237bb3eff6d4509e60d7fd5be00",
+    "revision": "41cd849ffc8e61568b4b89535b92e19d",
     "url": "/IITtastypizza/index.html"
   },
   {
-    "revision": "ce33046ee7359af66ab4",
+    "revision": "0eb68f563b0be17a5032",
     "url": "/IITtastypizza/static/css/main.85aad9f7.chunk.css"
   },
   {
-    "revision": "e7b044927fb06fc34e5b",
-    "url": "/IITtastypizza/static/js/2.e39d5b70.chunk.js"
+    "revision": "f39f358a6fc1cec95e84",
+    "url": "/IITtastypizza/static/js/2.659b6e88.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/IITtastypizza/static/js/2.e39d5b70.chunk.js.LICENSE.txt"
+    "url": "/IITtastypizza/static/js/2.659b6e88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce33046ee7359af66ab4",
-    "url": "/IITtastypizza/static/js/main.be7a58ab.chunk.js"
+    "revision": "0eb68f563b0be17a5032",
+    "url": "/IITtastypizza/static/js/main.781fd0a2.chunk.js"
   },
   {
     "revision": "3951a1d990d76f13f9f4",

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/IITtastypizza/static/css/main.85aad9f7.chunk.css",
-    "main.js": "/IITtastypizza/static/js/main.be7a58ab.chunk.js",
-    "main.js.map": "/IITtastypizza/static/js/main.be7a58ab.chunk.js.map",
+    "main.js": "/IITtastypizza/static/js/main.781fd0a2.chunk.js",
+    "main.js.map": "/IITtastypizza/static/js/main.781fd0a2.chunk.js.map",
     "runtime-main.js": "/IITtastypizza/static/js/runtime-main.bef7182f.js",
     "runtime-main.js.map": "/IITtastypizza/static/js/runtime-main.bef7182f.js.map",
-    "static/js/2.e39d5b70.chunk.js": "/IITtastypizza/static/js/2.e39d5b70.chunk.js",
-    "static/js/2.e39d5b70.chunk.js.map": "/IITtastypizza/static/js/2.e39d5b70.chunk.js.map",
+    "static/js/2.659b6e88.chunk.js": "/IITtastypizza/static/js/2.659b6e88.chunk.js",
+    "static/js/2.659b6e88.chunk.js.map": "/IITtastypizza/static/js/2.659b6e88.chunk.js.map",
     "index.html": "/IITtastypizza/index.html",
-    "precache-manifest.0a6a36435c33099dab2324f6b6a5d788.js": "/IITtastypizza/precache-manifest.0a6a36435c33099dab2324f6b6a5d788.js",
+    "precache-manifest.0015d7539ea43f9a9b10f08412e3a8e4.js": "/IITtastypizza/precache-manifest.0015d7539ea43f9a9b10f08412e3a8e4.js",
     "service-worker.js": "/IITtastypizza/service-worker.js",
     "static/css/main.85aad9f7.chunk.css.map": "/IITtastypizza/static/css/main.85aad9f7.chunk.css.map",
-    "static/js/2.e39d5b70.chunk.js.LICENSE.txt": "/IITtastypizza/static/js/2.e39d5b70.chunk.js.LICENSE.txt",
+    "static/js/2.659b6e88.chunk.js.LICENSE.txt": "/IITtastypizza/static/js/2.659b6e88.chunk.js.LICENSE.txt",
     "static/media/index.css": "/IITtastypizza/static/media/malina-webfont.635b288b.svg",
     "static/media/background2.jpg": "/IITtastypizza/static/media/background2.c729a92d.jpg",
     "static/media/bavarianMochentochen.jpg": "/IITtastypizza/static/media/bavarianMochentochen.bd72426a.jpg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bef7182f.js",
-    "static/js/2.e39d5b70.chunk.js",
+    "static/js/2.659b6e88.chunk.js",
     "static/css/main.85aad9f7.chunk.css",
-    "static/js/main.be7a58ab.chunk.js"
+    "static/js/main.781fd0a2.chunk.js"
   ]
 }
